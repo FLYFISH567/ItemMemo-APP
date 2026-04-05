@@ -1,0 +1,34 @@
+{
+  "name": "writedown-app",
+  "private": true,
+  "version": "0.1.0",
+  "vuePlugins": {
+    "service": [
+      "./scripts/vue-cli-uni-bridge.cjs"
+    ]
+  },
+  "scripts": {
+    "uni-serve": "uni -p h5",
+    "uni-build": "uni build -p h5",
+    "dev:h5": "uni -p h5",
+    "build:h5": "uni build -p h5",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "check:parity": "node scripts/parity-check.mjs",
+    "sync:mirror": "node scripts/parity-check.mjs --sync"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-alpha-5000720260327001",
+    "@dcloudio/uni-app-plus": "3.0.0-alpha-5000720260327001",
+    "@dcloudio/uni-h5": "3.0.0-alpha-5000720260327001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-alpha-5000720260327001",
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "3.4.30",
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-5000720260327001",
+    "@resvg/resvg-js": "^2.6.2",
+    "@vue/cli-service": "^5.0.9",
+    "typescript": "^5.8.2",
+    "vite": "5.2.8"
+  }
+}

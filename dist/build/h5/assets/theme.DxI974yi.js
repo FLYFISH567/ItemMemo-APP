@@ -1,0 +1,1 @@
+import{m as t,B as n,$ as r}from"./index-CxSEJ-Th.js";const a="writedown_mobile_theme";function e(){return"dark"===t(a)?"dark":"light"}function i(){return"dark"===e()}function o(t){n(a,t),r("theme:changed",t)}function s(){const t=i()?"light":"dark";return o(t),t}export{e as g,i,o as s,s as t};

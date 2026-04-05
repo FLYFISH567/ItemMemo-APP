@@ -1,0 +1,122 @@
+{
+  "pages": [
+    {
+      "path": "pages/dashboard/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/items/index",
+      "style": {
+        "navigationBarTitleText": "物品"
+      }
+    },
+    {
+      "path": "pages/add/index",
+      "style": {
+        "navigationBarTitleText": "新增"
+      }
+    },
+    {
+      "path": "pages/items/detail",
+      "style": {
+        "navigationBarTitleText": "物品详情"
+      }
+    },
+    {
+      "path": "pages/items/edit",
+      "style": {
+        "navigationBarTitleText": "编辑物品"
+      }
+    },
+    {
+      "path": "pages/categories/index",
+      "style": {
+        "navigationBarTitleText": "分类管理"
+      }
+    },
+    {
+      "path": "pages/reminders/index",
+      "style": {
+        "navigationBarTitleText": "提醒中心"
+      }
+    },
+    {
+      "path": "pages/analytics/index",
+      "style": {
+        "navigationBarTitleText": "统计分析"
+      }
+    },
+    {
+      "path": "pages/data-export/index",
+      "style": {
+        "navigationBarTitleText": "数据导出"
+      }
+    },
+    {
+      "path": "pages/settings/index",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/onboarding/index",
+      "style": {
+        "navigationBarTitleText": "欢迎使用",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "custom": false,
+    "color": "#98a2b3",
+    "selectedColor": "#16a34a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/dashboard/index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/items/index",
+        "text": "物品",
+        "iconPath": "/static/tabbar/items.png",
+        "selectedIconPath": "/static/tabbar/items-active.png"
+      },
+      {
+        "pagePath": "pages/add/index",
+        "text": "新增",
+        "iconPath": "/static/tabbar/add.png",
+        "selectedIconPath": "/static/tabbar/add-active.png"
+      },
+      {
+        "pagePath": "pages/analytics/index",
+        "text": "统计",
+        "iconPath": "/static/tabbar/analytics.png",
+        "selectedIconPath": "/static/tabbar/analytics-active.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "/static/tabbar/me.png",
+        "selectedIconPath": "/static/tabbar/me-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "物记",
+    "navigationBarBackgroundColor": "#f4f6fb",
+    "backgroundColor": "#f4f6fb"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "name" : "wuji",
+    "appid" : "__UNI__B3B8734",
+    "description" : "物记移动端",
+    "versionName" : "0.1.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "distribute" : {
+            "ios" : {
+                "dSYMs" : false
+            },
+            "android" : {
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86", "x86_64" ]
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "static/app-icons/icon-72.png",
+                    "xhdpi" : "static/app-icons/icon-96.png",
+                    "xxhdpi" : "static/app-icons/icon-144.png",
+                    "xxxhdpi" : "static/app-icons/icon-192.png"
+                }
+            }
+        }
+    },
+    "h5" : {
+        "title" : "物记"
+    },
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "vueVersion" : "3"
+}
